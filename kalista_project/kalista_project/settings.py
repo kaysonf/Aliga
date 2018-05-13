@@ -23,7 +23,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'fortune_teller/templates/fortune_teller'
 SECRET_KEY = 'qofxb^)g=w$-#h4a^3eis!sok8vbxo&pgo@vn(h2_!id)gzudw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
