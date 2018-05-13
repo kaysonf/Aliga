@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block body_block %}
+  <!-- <h1 id='start_message'></h1> -->
+  <div class="welcome_message" style="text-align: center;">
+    <h1 class='quotes'>Welcome to zxz</h1>
+    <h1 class='quotes'>Swipe Left to</h1>
+    <h1 class='quotes'>Swipe Right to asdas</h1>
+  </div>
+
+
+  <div id="display_question">
+
+  </div>
+  <button id="start_button" class="btn btn-default" type="button" name="button" onclick="nextQ()">Start</button>
+  <script src="{% static 'fortune_teller/js/reading.js' %}"></script>
+{% endblock%}

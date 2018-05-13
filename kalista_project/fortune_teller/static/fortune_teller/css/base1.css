@@ -1,0 +1,111 @@
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#home {
+  background-image: url("../media/landinga.gif");
+  height: 1366px;
+  width: 1024px;
+}
+
+#about {
+  background-image: url("../media/about.gif");
+  height: 1366px;
+  width: 1024px;
+  background-size: contain;
+}
+
+#reading {
+  background-image: url("../media/bgarrows.jpg");
+  height: 1366px;
+  width: 1024px;
+  position: relative;
+}
+
+#result {
+  background-image: url("../media/bg.jpg");
+  height: 1366px;
+  width: 1024px;
+  font-family: 'hoefler text';
+}
+#abtext {
+  font-size: 27px;
+  padding: 40em 100px;
+  word-wrap: break-word;
+  font-family: 'hoefler text'
+  color: #000000bf;
+}
+
+#abtext > strong {
+  font-weight: 600;
+    font-size: 25px;
+    color: black;
+}
+#result > h3 {
+  font-size: 10em;
+}
+
+#result > h3 > p {
+  font-size: 33px;
+  padding: 0px 100px;
+}
+
+html, home {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#myProgress {
+  background-color: #cfce99;
+  border-radius: 25px;
+  margin-top: 48em;
+  width: 27em;
+  height: 2em;
+  margin-left: 306px;
+}
+#myBar {
+    width: 1%;
+    height: 30px;
+    background-color: #b87500;
+    border-radius: 25px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: transparent;
+    font-family: 'hoefler text';
+    font-style: italic;
+    text-decoration: underline;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 31px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #633715;
+    display: block;
+
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.quotes {display: none;}
+
+/* cardstuff */
+.tc-card{
+  height: 15.8cm !important;
+  width: 10cm;
+  left: 23em !important;
+  top: 27em !important;
+}
+/* endstuff */
