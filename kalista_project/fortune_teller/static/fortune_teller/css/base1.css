@@ -36,6 +36,32 @@
   font-family: 'hoefler text'
   color: #000000bf;
 }
+#right_arrow{
+    position: absolute;
+    padding-top: 56em;
+    padding-left: 8em;
+}
+#capright {
+    font-family: 'hoefler text';
+    position: absolute;
+    font-size: 30px;
+    padding-top: 904px;
+    padding-left: 24em;
+}
+#capleft{
+    padding-left: 117px;
+    padding-top: 30em;
+    position: absolute;
+    font-size: 30px;
+    font-family: 'hoefler text';
+}
+#left_arrow {
+    position: absolute;
+    padding-top: 56em;
+    z-index: 999;
+    margin-left: -320px;
+    transform: scaleX(-1);
+}
 
 #abtext > strong {
   font-weight: 600;
