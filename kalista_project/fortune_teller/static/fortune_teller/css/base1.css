@@ -17,7 +17,7 @@
 }
 
 #reading {
-  background-image: url("../media/bgarrows.jpg");
+  background-image: url("../media/bgarrows.png");
   height: 1366px;
   width: 1024px;
   position: relative;
@@ -33,8 +33,8 @@
   font-size: 27px;
   padding: 40em 100px;
   word-wrap: break-word;
-  font-family: 'hoefler text'
-  color: #000000bf;
+  font-family: 'hoedown text';
+  color: #b1967c;
 }
 #right_arrow{
     position: absolute;
@@ -47,6 +47,7 @@
     font-size: 30px;
     padding-top: 904px;
     padding-left: 24em;
+    color: #b1967c;
 }
 #capleft{
     padding-left: 117px;
@@ -54,6 +55,7 @@
     position: absolute;
     font-size: 30px;
     font-family: 'hoefler text';
+    color: #b1967c;
 }
 #left_arrow {
     position: absolute;
@@ -66,15 +68,20 @@
 #abtext > strong {
   font-weight: 600;
     font-size: 25px;
-    color: black;
+    color: #b1967c;
 }
 #result > h3 {
   font-size: 10em;
+  color: #b1967c;
+}
+#childhood{
+  padding-top: 1em;
 }
 
 #result > h3 > p {
-  font-size: 33px;
+  font-size: 25px;
   padding: 0px 100px;
+  color: #b1967c;
 }
 
 html, home {
